@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Kanit:wght@400;500&family=Lato:wght@700&family=Merriweather&family=Mooli&family=Nunito+Sans:opsz,wght@6..12,500&family=Poppins:wght@300;400;500;600&display=swap');*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+}
+.container{
+    width: 100%;
+   min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+.box{
+    width: 70%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: white;
+    background-color: rgb(240,246,237);
+    border-radius: 10px;
+}
+.box img{
+    width: 300px;
+    /* height: 300px; */
+    padding-bottom: 10px;
+}
+.box h1{
+    margin-bottom: 3rem;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.box input{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color:white;
+    
+}
+.box select{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+.box button{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    background-color: cadetblue;
+}
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+    }
+}
